@@ -20,7 +20,7 @@ const router = createRouter({
       children: [
         {
           path:":id",
-          name:"product",
+          name:"productView",
           component: ProductView,
         },
         {
