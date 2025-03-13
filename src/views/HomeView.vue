@@ -1,7 +1,60 @@
 <script setup lang="ts">
+import ProductCard from "@/components/home/ProductCard.vue";
+import ProductGrid from "@/components/product/ProductGrid.vue";
 </script>
 
 <template>
-  <main>
-  </main>
+  <div class="w-full flex flex-col justify-center items-center">
+    <ProductGrid>
+      <ProductCard
+        title="Teste"
+        description="00000"
+        :price="100.9"
+        productId="asdads"
+        imageUrl="https://images.pexels.com/photos/3989394/pexels-photo-3989394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      />
+      <ProductCard
+        title="Teste"
+        description="00000"
+        :price="100.9"
+        productId="asdads"
+        imageUrl="https://images.pexels.com/photos/3989394/pexels-photo-3989394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      />
+      <ProductCard
+        title="Teste"
+        description="00000"
+        :price="100.9"
+        productId="asdads"
+        imageUrl="https://images.pexels.com/photos/3989394/pexels-photo-3989394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      />
+      <ProductCard
+        title="Teste"
+        description="00000"
+        :price="100.9"
+        productId="asdads"
+        imageUrl="https://images.pexels.com/photos/3989394/pexels-photo-3989394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      />
+      <ProductCard
+        title="Teste"
+        description="00000"
+        :price="100.9"
+        productId="asdads"
+        imageUrl="https://images.pexels.com/photos/3989394/pexels-photo-3989394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      />
+      <ProductCard
+        title="Teste"
+        description="00000"
+        :price="100.9"
+        productId="asdads"
+        imageUrl="https://images.pexels.com/photos/3989394/pexels-photo-3989394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      />
+      <ProductCard
+        title="Teste"
+        description="00000"
+        :price="100.9"
+        productId="asdads"
+        imageUrl="https://images.pexels.com/photos/3989394/pexels-photo-3989394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      />
+    </ProductGrid>
+  </div>
 </template>
