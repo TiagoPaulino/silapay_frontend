@@ -4,7 +4,7 @@ import  NavigateMenu  from './components/global/NavigateMenu.vue'
 </script>
 
 <template >
-  <div class="flex flex-col min-w-screen min-h-screen">
+  <div class="flex flex-col min-h-screen">
     <NavigateMenu/>
     <div>
       <RouterView/>
